@@ -3,15 +3,9 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to sphinx-docs's documentation! Testing if I can change things
+This is the index page
 =======================================
 
 .. toctree::
    :maxdepth: 4
    :caption: Contents:
-
-
-my documentation
-================
-
-This is a test document. I am changing the body

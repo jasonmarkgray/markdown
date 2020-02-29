@@ -1,5 +1,5 @@
 ---
-title: Webhook event sources
+Webhook event sources
 ---
 
 Webhook event sources allow you to transform incoming events into other types of events. For example the "Github Pull Request Event Source" is able to transform an incoming "HTTP Request Event" into a "Github Pull Request Event", provided the request body of the HTTP Request Event conforms with a Github Pull Request Event payload as defined by Github.

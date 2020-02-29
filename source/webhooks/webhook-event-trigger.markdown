@@ -1,5 +1,5 @@
 ---
-title: Webhook event triggers
+Webhook event triggers
 ---
 
 Webhook event triggers listen for events from event sources such as [webhooks endpoints](/xl-release/how-to/webhook-endpoints/) or [webhook event sources](/xl-release/how-to/webhook-event-sources/) to create releases. Webhook event triggers:
