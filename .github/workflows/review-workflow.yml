@@ -1,6 +1,4 @@
-on:
-  pull_request:
-    types: [closed]
+on: [push]
 jobs:
   publish_confluence:
     runs-on: ubuntu-latest
