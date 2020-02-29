@@ -54,7 +54,7 @@ templates_path = ['_templates']
 
 source_parsers = {
    '.markdown': 'recommonmark.parser.CommonMarkParser',
-}
+}  
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
