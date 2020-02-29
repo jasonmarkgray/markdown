@@ -46,8 +46,6 @@ confluence_server_url = 'https://jasongray.atlassian.net/wiki/'
 confluence_server_user = 'jasonmarkgray@gmail.com'
 confluence_server_pass = '3r8rmnGyeSTImECelfbyBA0E'
 confluence_max_doc_depth = 6
-confluence_header_file = 'validation-sets/header-footer/header.tpl'
-confluence_footer_file = 'validation-sets/header-footer/footer.tpl'
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
