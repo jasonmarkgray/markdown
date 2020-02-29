@@ -16,6 +16,6 @@ https://jasongray.atlassian.net/wiki/spaces/SPHINX/pages/1478643/Webhooks
 
 You can view the pages as an anonymous user. 
 
-For the purpose of this exercise I have not done very much work to refine the configuration, but it could be extended to any extent. I am also assuming that the condition of a Git push event is sufficient to establish an informal workflow. 
+For the purpose of this exercise I have not done very much work to refine the configuration, but it could be extended very easily. I am also assuming that the condition of a Git push event is sufficient to establish an informal workflow. 
 
 The automation is based on the [Sphinx ConfluenceBuilder](https://github.com/sphinx-contrib/confluencebuilder) with the [Publish Confluence](https://github.com/marketplace/actions/publish-confluence) GitHub workflow. I have also modified it to read Markdown files instead of Sphinx.  
