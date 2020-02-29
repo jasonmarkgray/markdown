@@ -11,3 +11,8 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
+    - name: publish-confluence
+      uses: pratikmallya/publish-confluence@v1.0
+      with:
+        username: ${{ secrets.atlassianUsername }}
+        apitoken: ${{ secrets.atlassianApitoken }}
