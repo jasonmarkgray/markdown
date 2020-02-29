@@ -442,7 +442,6 @@ Check that a new release named "New Chat Message" was created.
 
 The task title should read `[#commands] me: Hello\nWorld`
 
-![New Chat Message](../images/webhooks/new-chat-message-release.png)
 
 Complete or abort this release to avoid confusing it with another release when testing other scenarios.
 
