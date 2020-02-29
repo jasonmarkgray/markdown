@@ -104,7 +104,7 @@ This scenario will use the `GitHub: Pull Request Event Source` to trigger a rele
     * For now you do not need to enable any of the filtering fields
     * Click **Save**
 
-![GitHub pull request event source](../images/webhooks/github-pull-request-event-source.png)
+
 
 4. In your test folder, set up a [webhook event trigger](/xl-release/how-to/webhook-event-trigger.html#create-a-webhook-event-trigger):
     * Navigate to **Folders** > [Folder name] > **Triggers** > **Add Trigger**, and select *Webhook event trigger*
