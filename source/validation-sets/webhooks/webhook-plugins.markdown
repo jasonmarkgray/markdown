@@ -402,9 +402,9 @@ Not setting the `output` variable or setting it to `None` is equivalent to the f
 1. Select the **Event source** `My Chat Message Event Source (POST)`
 1. Select the **Event type** `Mywebhooks: Chat Message`
 1. Enter the release title, for example `New Chat Message`
-1. Under **Template variables** > **user**, click ![field selector](../images/multiselect-icon.png) and choose `User - user`
-1. Under **Template variables** > **topic**, click ![field selector](../images/multiselect-icon.png) and choose `Topic - topic`
-1. Under **Template variables** > **message**, click ![field selector](../images/multiselect-icon.png) and choose `Message - message`
+1. Under **Template variables** > **user**, click  and choose `User - user`
+1. Under **Template variables** > **topic**, click  and choose `Topic - topic`
+1. Under **Template variables** > **message**, click  and choose `Message - message`
 1. Save the trigger
 
 #### Verify that everything works as expected

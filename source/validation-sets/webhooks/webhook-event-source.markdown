@@ -111,11 +111,10 @@ This scenario will use the `GitHub: Pull Request Event Source` to trigger a rele
     * Give it a title, i.e. `github: my-repo pull request trigger`
     * In *Event Source*, select the GitHub event parser you created above, i.e. `github: my-repo pull requests`
     * In *Event Type*, select *github.PullRequestEvent*
-    * In *Release title*, click ![field selector](../images/multiselect-icon.png) and select *Title - pull_request.title*. You can enter search text to narrow down the available fields
+    * In *Release title*, click  and select *Title - pull_request.title*. You can enter search text to narrow down the available fields
     * In *Template*, select the test release template
     * If you had created variables for mapping, you could set up mapping in the *Template variables* section that opens, using the same procedure for setting the *Release title* above
     * Click **Save**
-    ![Webhook event trigger](../images/webhooks/github-pull-request-trigger.png)
 5. Trigger a release:
     * In your GitHub repository, create a new pull request
     * In XL Release, you should see that a new release was created with the name of the pull request.
@@ -201,7 +200,7 @@ output = CI('test.MyEvent', {
     * Add a title
     * In *Input event type*, use `My Event`
     * Choose the template you created above
-    * In the variable section, click ![field selector](../images/multiselect-icon.png) and choose *myvalue* from the list
+    * In the variable section, clickand choose *myvalue* from the list
     * Save the trigger
 
 #### Test the event source

@@ -37,18 +37,17 @@ Once you have already defined a webhook [event source](/xl-release/how-to/webhoo
 1. Select the **Event source** this trigger should react to. The list will include all the event sources defined in this folder and its parents
 1. Once the **Event source** is selected, select the **Event type**, in most case you should leave the default value, which is defined by the Event source's output event type.
 1. Select the previously created template
-1. In the **Release title**, you can either enter a title manually or click ![field selector](../images/multiselect-icon.png) to select a source from the event data to populate the title.
+1. In the **Release title**, you can either enter a title manually or click to select a source from the event data to populate the title.
 1. Select a template from the list to create the release from
     * If the template contains variables, a new **Template variables** section will open. See below for more details.
-1. In **Tags**, either enter a list of new tags separated by pressing *Enter*, or click![field selector](../images/multiselect-icon.png) to select a source to populate tags
-1. If there are template variables, the fields will already be populated with the default values. You can either overwrite this, or use the ![field selector](../images/multiselect-icon.png) icon to select a source to populate the variables.
+1. In **Tags**, either enter a list of new tags separated by pressing *Enter*, or click to select a source to populate tags
+1. If there are template variables, the fields will already be populated with the default values. You can either overwrite this, or use the  icon to select a source to populate the variables.
 1. Click **Save**.
 
 ## Mapping properties
 
-Field properties in webhook event triggers can either be entered manually, or copied from a field in the event. For example, the event source values can be used to populate the Release title. Click the field selector icon ![field selector](../images/multiselect-icon.png) to use event source values.
+Field properties in webhook event triggers can either be entered manually, or copied from a field in the event. For example, the event source values can be used to populate the Release title. Click the field selector icon  to use event source values.
 
-![Using field selector](../images/using-field-selector.png)
 
 ## Webhook event permissions
 

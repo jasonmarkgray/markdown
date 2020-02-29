@@ -27,8 +27,6 @@ When setting up an HTTP endpoint for webhooks, the user is required to provide a
 * **path**: the last segment of the URL this endpoint should be accessible at. This path must be globally unique across the XL Release system.
 * **authentication method**: the method to verify the identity of the sender. Depending which method is selected, more information might be required - a secret key, for example.
 
-![an HTTP endpoint for Webhooks being created](../images/webhooks/http-endpoint-for-webhooks-configured.png)
-
 > **Note:** HTTP endpoints for Webhooks and Event sources require users to have the [edit configuration](/xl-release/how-to/configure-release-teams-and-permissions/#configurations-permissions) permission.
 
 ## Webhook URLs
@@ -88,26 +86,20 @@ authenticated = 's3cr3t' in get_tokens()
 
 ## Create an HTTP endpoint for Webhooks
 
-![Webhooks and Events](../images/webhooks/configurations-webhooks-and-events.png)
 
 To define an HTTP endpoint for Webhooks:
 
 1. In **Settings** > **Shared configuration** > **Webhooks and Events**, click *HTTP Endpoint For Webhooks* **+**.
 2. Select either GET or POST Endpoint
 
-![HTTP Method selection](../images/webhooks/http-endpoint-for-webhooks-new.png)
-
 3. Enter a name for this endpoint in the `Title` field
 4. Enter a path for the endpoint to listen to. This will have the form `XL_RELEASE_URL/webhooks/${path}`. This path must be unique across the XL Release system. An error will notify the user if the chosen path is already taken upon saving.
-![Path is not unique](../images/webhooks/http-endpoint-for-webhooks-unique-path-error.png)
 5. Select an authentication method from the drop-down. For more information, see [Webhook security](#webhook-security):
     * No authentication
     * Github Authentication
     * Scripted Authentication (Jython)
 6. Enable the event (default)
 7. Click **Save**.
-
-![HTTP Endpoint For Webhooks](../images/webhooks/http-endpoint-for-webhooks-configured.png)
 
 You can add more webhooks as needed. They can also be added per-folder in the folder **Configurations**, provided their path is globally unique.
 
@@ -144,7 +136,7 @@ This scenario will create a basic release from a Curl request, using a webhook a
     * Choose a name for the release created by this trigger, i.e. `webhook release`
     * Optionally, enter a list of tags
     * Choose the template you just created (`my template`)
-    * The "Template variables" section will appear. Click ![field selector](../images/multiselect-icon.png) and choose *Request Body* for the `content` variable.
+    * The "Template variables" section will appear. Click  and choose *Request Body* for the `content` variable.
     * Click the **Save** button.
 3. Use a curl command to create a release:
 
