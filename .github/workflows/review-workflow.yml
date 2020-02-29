@@ -11,13 +11,3 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
-  publish_confluence:
-    runs-on: ubuntu-latest
-    name: Publish docs to confluence
-    steps:
-    - uses: actions/checkout@v2.0.0
-    - name: publish to confluence
-      uses: pratikmallya/publish-confluence@master
-      with:
-        username: ${{ secrets.atlassianUsername }}
-        apitoken: ${{ secrets.atlassianApitoken }}
