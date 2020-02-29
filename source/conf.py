@@ -40,8 +40,8 @@ release = u'1'
 # ones.
 extensions = ['sphinxcontrib.confluencebuilder']
 confluence_publish = True
-confluence_parent_page = 'This is a test page'
-confluence_space_name = 'MARKDOWN'
+confluence_parent_page = 'Parent'
+confluence_space_name = 'SPHINX'
 confluence_server_url = 'https://jasongray.atlassian.net/wiki/'
 confluence_server_user = 'jasonmarkgray@gmail.com'
 confluence_server_pass = '3r8rmnGyeSTImECelfbyBA0E'
