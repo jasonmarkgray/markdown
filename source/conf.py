@@ -40,7 +40,7 @@ release = u'1'
 # ones.
 extensions = ['sphinxcontrib.confluencebuilder']
 confluence_publish = True
-confluence_parent_page = 'Parent'
+confluence_parent_page = 'Webhooks'
 confluence_space_name = 'SPHINX'
 confluence_server_url = 'https://jasongray.atlassian.net/wiki/'
 confluence_server_user = 'jasonmarkgray@gmail.com'
@@ -54,7 +54,7 @@ templates_path = ['_templates']
 
 source_parsers = {
    '.markdown': 'recommonmark.parser.CommonMarkParser',
-}  
+}
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:

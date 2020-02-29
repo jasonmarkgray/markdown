@@ -1,16 +1,5 @@
 ---
 title: Webhooks overview
-product:
-- xl-release
-category:
-- Release components
-subject:
-- Webhooks
-tags:
-- webhooks
-- events
-- triggers
-order: 100
 ---
 
 Webhooks, introduced in XL Release 9.6, are able to trigger releases as a reaction to specific HTTP requests made by an external source. This can potentially reduce the load of XL Release, while also reducing the pressure on external systems caused by polling methods where release triggers had to actively make requests to the third party system.

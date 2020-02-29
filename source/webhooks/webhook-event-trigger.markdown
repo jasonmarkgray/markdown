@@ -1,17 +1,5 @@
 ---
 title: Webhook event triggers
-product:
-- xl-release
-category:
-- Release components
-subject:
-- Webhooks
-tags:
-- webhooks
-- time
-- schedule
-- trigger
-order: 400
 ---
 
 Webhook event triggers listen for events from event sources such as [webhooks endpoints](/xl-release/how-to/webhook-endpoints/) or [webhook event sources](/xl-release/how-to/webhook-event-sources/) to create releases. Webhook event triggers:

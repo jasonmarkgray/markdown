@@ -1,16 +1,5 @@
 ---
 title: HTTP endpoints for Webhooks
-product:
-- xl-release
-category:
-- Release components
-subject:
-- Webhooks
-tags:
-- webhooks
-- triggers
-- events
-order: 200
 ---
 
 HTTP endpoints for webhooks allow you to listen to callback events from external sources such as Jira or GitHub.  Test test tset  amsegeast

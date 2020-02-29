@@ -1,15 +1,5 @@
 ---
 title: Webhooks plugins tutorial
-product:
-- xl-release
-category:
-- Release components
-subject:
-- Webhooks
-tags:
-- webhooks
-- events
-order: 500
 ---
 
 In this tutorial we are going to create a custom authentication method for [HTTP endpoint for webhooks](/xl-release/webhooks/http-endpoint-for-webhooks.html), a custom event type, and a custom event source.

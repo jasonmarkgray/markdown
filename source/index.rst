@@ -15,5 +15,3 @@ my documentation
 ================
 
 This is a test document. I am changing the body
-
-test
