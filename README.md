@@ -1,6 +1,6 @@
 # GitHub-to-Confluence automated workflow
 
-This repository is the source of my GitHub-to-Confluence workflow. The files in /source are the source markdown topics. Whenever a push event happens on master, it triggers a GitHub workflow action which publishes the updated or new topics to my Confluence space.
+This repository contains a GitHub-to-Confluence workflow. The files in /source are the source markdown topics. Whenever a push event happens on master, it triggers a GitHub workflow action which publishes the updated or new topics to my Confluence space.
 
 The repo is here:
 
